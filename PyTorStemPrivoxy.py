@@ -1,3 +1,7 @@
+'''
+Python script to connect to Tor via Stem and Privoxy, requesting a new connection (hence a new IP as well) as desired.
+'''
+
 import stem
 import stem.connection
 
