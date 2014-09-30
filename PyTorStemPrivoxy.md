@@ -93,6 +93,10 @@ Additionally, in the `renew_connection()` function,  a signal is being sent to t
 
 ```python
 
+'''
+Python script to connect to Tor via Stem and Privoxy, requesting a new connection (hence a new IP as well) as desired.
+'''
+
 import stem
 import stem.connection
 
