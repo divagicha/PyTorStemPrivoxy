@@ -89,7 +89,7 @@ In the script below, `urllib2` is using the proxy. `privoxy` listens on port 811
 
 Additionally, in the `renew_connection()` function,  a signal is being sent to the Tor controller to change the identity, so you get new identities without restarting Tor. Doing such comes in handy when crawling a web site and one doesn’t wanted to be blocked based on IP address.
 
-**test_tor_stem_privoxy.py**
+**PyTorStemPrivoxy.py**
 
 ```python
 
@@ -191,7 +191,7 @@ for i in range(0, nbrOfIpAddresses):
 Execute the Python 2.7 script above via the following command:
 	
 ```shell
-python test_tor_stem_privoxy.py
+python PyTorStemPrivoxy.py
 ```
 
 When the above script is executed, one should see that the IP address is changing every few seconds.
